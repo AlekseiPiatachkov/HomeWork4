@@ -9,8 +9,7 @@
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 
-Console.Write($"{number} -> ");
-Console.Write(GetSumArray(number));
+Console.Write($"{number} -> {GetSumArray(number)}");
 
 int GetSumArray(int number)
 {
